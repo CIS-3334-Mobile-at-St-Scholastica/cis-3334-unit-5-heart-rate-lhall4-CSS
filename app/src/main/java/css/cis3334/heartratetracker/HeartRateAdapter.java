@@ -34,5 +34,6 @@ public class HeartRateAdapter extends ArrayAdapter<HeartRate> {
         PulseTextView.setText(hr.getPulse().toString());
 
         return(view);
+
     }
 }
